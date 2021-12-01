@@ -39,13 +39,13 @@ public class Controller : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.RightArrow) && transform.position.x <= 6)
         {
-            transform.Translate(1.41f, 0, 0, Space.World);
+            transform.Translate(1.3f, 0, 0, Space.World);
 
         }
 
         if (Input.GetKeyDown(KeyCode.LeftArrow) && transform.position.x >= 2)
         {
-            transform.Translate(-1.41f, 0, 0, Space.World);
+            transform.Translate(-1.3f, 0, 0, Space.World);
 
         }
         if (Input.GetKeyDown(KeyCode.UpArrow) && transform.position.y <= 8)
@@ -53,7 +53,7 @@ public class Controller : MonoBehaviour
             transform.Translate(0, 1.35f, 0, Space.World);
 
         }
-        if (Input.GetKeyDown(KeyCode.DownArrow) && transform.position.y >= 2)
+        if (Input.GetKeyDown(KeyCode.DownArrow) && transform.position.y >= 1)
         {
             transform.Translate(0, -1.35f, 0, Space.World);
 
