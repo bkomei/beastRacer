@@ -1,0 +1,1542 @@
+{
+  "innkeeper_fail_witch_fail": [
+    {
+      "action": "call",
+      "label": "innkeeper_fail"
+    },
+    {
+      "action": "call",
+      "label": "witch_fail"
+    },
+    {
+      "action": "jump",
+      "label": "end"
+    }
+  ],
+  "witch_income": [
+    {
+      "caption": "Accountant",
+      "text": "Okay, so how did you make your money last year and how much did you make?"
+    },
+    {
+      "caption": "Witch",
+      "text": "Well, I worked mostly for the WUTA, the Witches United Temp Agency."
+    },
+    {
+      "caption": "",
+      "text": "She slides a crisp invoice across the desk."
+    },
+    {
+      "caption": "",
+      "text": "The WUTA invoice lists charges for a number of services, including hexing, cursing, fortune reading, and potion brewing, totaling at $26,783.02."
+    },
+    {
+      "caption": "Accountant",
+      "text": "Looks good to me. Any other sources of income?"
+    },
+    {
+      "caption": "Witch",
+      "text": "Sometimes I have slow months at the agency and need to supplement my income though..."
+    },
+    {
+      "caption": "Witch",
+      "text": "Mostly through the Adventurers Guild, doing muscle work. You know, goon for hire stuff."
+    },
+    {
+      "caption": "",
+      "text": "She slides a slightly crumpled invoice across the desk."
+    },
+    {
+      "caption": "",
+      "text": "This invoice lists charges for several successful missions...and a couple of failed ones too. It's good to know the Adventurers Guild is a fair employer."
+    },
+    {
+      "caption": "",
+      "text": "All in all, there are 7 charges, totaling at $14,568.09."
+    },
+    {
+      "caption": "",
+      "text": "Wait...there's two sheets here. I flip the second page. It's filthy, like someone rubbed soot all over the edges."
+    },
+    {
+      "caption": "Accountant",
+      "text": "Hmm, and this last charge, it's for...$8,934.90?"
+    },
+    {
+      "caption": "Witch",
+      "text": "YEP. That's it. Don't think about it too hard."
+    },
+    {
+      "caption": "",
+      "text": "I take out a clean rag and begin to wipe away the mess."
+    },
+    {
+      "caption": "Witch",
+      "text": "Hey, what are you doing snoop?! I said don't think about it too hard!"
+    },
+    {
+      "caption": "Accountant",
+      "text": "Ma'am, I need all the relevant information on this invoice."
+    },
+    {
+      "caption": "Witch",
+      "text": "You can see what they paid me, that's good enough! They asked to report my income, and so I did!"
+    },
+    {
+      "caption": "Accountant",
+      "text": "The IRS would not be pleased if I was lackadaisical in my record keeping. They don't just need to know how much you made, but also how you made it."
+    },
+    {
+      "caption": "Accountant",
+      "text": "If I were to leave out some of that relevant info, it might invoke an audit."
+    },
+    {
+      "caption": "Witch",
+      "text": "GAH! Anything but that! Urgh, fine, whatever. You're obligated to keep this private, right? HIPAA compliance and all that?"
+    },
+    [
+      {
+        "result": [
+          {
+            "caption": "Witch",
+            "text": "Well you better COMPLY or I'm getting my revenge. Let's get this over with."
+          }
+        ],
+        "choice": "Suuure, something like that."
+      },
+      {
+        "result": [
+          {
+            "caption": "Witch",
+            "text": "Well you're going to NEED a doctor if you don't keep mum about this last invoice!"
+          },
+          {
+            "caption": "Accountant",
+            "text": "I assure although I am not bound by HIPAA I do have my own professional standards to comply with. Your invoice secrets are safe with me."
+          }
+        ],
+        "choice": "Ma'am, I'm not a doctor."
+      }
+    ],
+    {
+      "caption": "",
+      "text": "I clean off the invoice once and for all. It's for...clowns?"
+    },
+    {
+      "caption": "Accountant",
+      "text": "$5,432.98 from Carly's Celebratory Clown Collective? Do you moonlight as a clown?"
+    },
+    {
+      "caption": "Witch",
+      "text": "NO, I most certainly DO NOT. I...I *mumble* I'm the on staff magician and Keesh here is the petting zoo coordinator *mumble mumble*"
+    },
+    {
+      "caption": "Witch",
+      "text": "...You know, for like....kids parties and stuff."
+    },
+    {
+      "caption": "Accountant",
+      "text": "You don't strike me as the kids type."
+    },
+    {
+      "caption": "Bird Thing?",
+      "text": "SWQWAAK!"
+    },
+    {
+      "caption": "Witch",
+      "text": "I'm not. We're NOT. We just need the cash. Trust me I'd rather make my money any other way. Nothing is more embarrassing for a witch than to be lumped in with common buskers!"
+    },
+    {
+      "caption": "Witch",
+      "text": "But pride doesn't pay my bills! Until I can find more stable work as a witch I gotta hustle any way I can."
+    },
+    {
+      "caption": "Accountant",
+      "text": "Of course. I'm not here to judge ma'am, I just need to verify these invoices are correct."
+    },
+    {
+      "action": "jump",
+      "label": "witch_chat"
+    }
+  ],
+  "innkeeper_pass_witch_pass": [
+    {
+      "action": "call",
+      "label": "innkeeper_pass"
+    },
+    {
+      "action": "call",
+      "label": "witch_pass"
+    },
+    {
+      "action": "jump",
+      "label": "end"
+    }
+  ],
+  "innkeeper_pass_witch_fail": [
+    {
+      "action": "call",
+      "label": "innkeeper_pass"
+    },
+    {
+      "action": "call",
+      "label": "witch_fail"
+    },
+    {
+      "action": "jump",
+      "label": "end"
+    }
+  ],
+  "innkeeper_fail_witch_pass": [
+    {
+      "action": "call",
+      "label": "innkeeper_fail"
+    },
+    {
+      "action": "call",
+      "label": "witch_pass"
+    },
+    {
+      "action": "jump",
+      "label": "end"
+    }
+  ],
+  "witch_expense_chat": [
+    [
+      {
+        "result": [
+          {
+            "caption": "",
+            "text": "The invoice is for $4,245.87."
+          },
+          {
+            "caption": "Accountant",
+            "text": "A bit much for a wand, no?"
+          },
+          {
+            "caption": "Witch",
+            "text": "NONSENSE! There's no such thing as too much for a wand. For a witch, buying a cheap wand would be like buying a cheap tattoo!"
+          },
+          {
+            "caption": "Accountant",
+            "text": "I think one decision would be a lot more permanent than the other..."
+          },
+          {
+            "caption": "Witch",
+            "text": "Oh yeah? Let's pick up a cheap wand and cast a little transmogrification on spell on you,  and we'll see how permanent the side effects of a cheap wand are."
+          },
+          [
+            {
+              "result": [],
+              "choice": "No thank you."
+            },
+            {
+              "result": [],
+              "choice": "I'm all set."
+            }
+          ],
+          {
+            "caption": "Witch",
+            "text": "That's what I thought. Don't worry, you're safe in my hands, I don't mess around when it comes to equipment."
+          },
+          {
+            "caption": "Witch",
+            "text": "That's why I decided to update my wand this year."
+          },
+          {
+            "caption": "",
+            "text": "She slips out an ornate wand from under her cloak."
+          },
+          {
+            "caption": "Witch",
+            "text": "Picked out this baby, the Magic Molly 5080 S Class. State of the art. Solid mahogany stem with mother of pearl detailing, capable of 45,000 units of pure magitricity, backed by a v88 celestial engine."
+          },
+          [
+            {
+              "result": [
+                {
+                  "caption": "Witch",
+                  "text": "You bet it is!"
+                }
+              ],
+              "choice": "Impressive."
+            },
+            {
+              "result": [
+                {
+                  "caption": "Witch",
+                  "text": "Hey now I'm just taking a few moments to appreciate this beautiful piece of functional art. Have you no taste?"
+                }
+              ],
+              "choice": "Are these details really relevant to your taxes?"
+            }
+          ],
+          {
+            "caption": "Witch",
+            "text": "You should see it in action, that would really knock your knickers off! I use it for everything, work, play, odd jobs, even jobs, heck I even brush my teeth with this baby!"
+          },
+          {
+            "caption": "Accountant",
+            "text": "Did you say you use it for *everything*?"
+          },
+          {
+            "caption": "Accountant",
+            "text": "Ma'am, if you use an item for both business and personal uses, then you can't claim it outright."
+          },
+          {
+            "caption": "Witch",
+            "text": "HUH? What do you mean?! I use it for business, it's a business expense!"
+          },
+          {
+            "caption": "Accountant",
+            "text": "Sorry to burst your wand bubble, but you need to prorate the expense based on how it's used."
+          },
+          {
+            "caption": "Witch",
+            "text": "*GULP* I wouldn't have chosen the top of the line model had I known that..."
+          },
+          {
+            "caption": "Accountant",
+            "text": "Based on the total time you spend using you want...what percent of the time are you using that for work and what percent is personal use?"
+          },
+          {
+            "caption": "Witch",
+            "text": "Well...I use it for work plenty..."
+          },
+          {
+            "caption": "Accountant",
+            "text": "Ma'am, I'm not going to judge you based on how you use your wand, but the IRS might..."
+          },
+          {
+            "caption": "Witch",
+            "text": "Yikes! Fine, it's probably 50 - 50, you happy? I wasn't expecting a threat with my taxes, sheesh."
+          },
+          {
+            "caption": "",
+            "text": "Okay, so only 50% of that $4,245.87 can be expensed."
+          }
+        ],
+        "choice": "Invoice from Wands, Wards, and Whatever"
+      },
+      {
+        "result": [
+          {
+            "caption": "",
+            "text": "$2,300.45 dollars on...organic, free range, soy based bird feed? $539.89 on grooming visits?"
+          },
+          {
+            "caption": "Accountant",
+            "text": "Ma'am, I'm sorry but your pet's personal care is not expensable."
+          },
+          {
+            "caption": "Witch",
+            "text": "PET? That isn't for my PET! Why I oughtta..."
+          },
+          {
+            "caption": "Accountant",
+            "text": "I'm just reading off the invoices, whether this food is for you or for your pet, it's still not expensable."
+          },
+          {
+            "caption": "Witch",
+            "text": "It's not for me! Or for my pet! It's for my FAMILIAR here, Keesh."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "SQWAAAK!"
+          },
+          {
+            "caption": "Witch",
+            "text": "You NEVER call a witch's familiar a PET. Don't you have any manners? Or any fear? A less kind witch would hex you ten times over for such an insult."
+          },
+          {
+            "caption": "Accountant",
+            "text": "My apologies, I didn't mean to offend."
+          },
+          {
+            "caption": "Witch",
+            "text": "Well, you did. Keesh is a familiar, not a pet, don't forget that."
+          },
+          {
+            "caption": "Accountant",
+            "text": "Noted."
+          },
+          {
+            "caption": "Witch",
+            "text": "A witch needs her familiar if she's going to be a witch."
+          },
+          {
+            "caption": "Witch",
+            "text": "How am I going to curse a man and his whole descended bloodline and all their moms and all their dogs if I don't have a familiar to give my spells that OOOMPH factor?"
+          },
+          {
+            "caption": "Accountant",
+            "text": "That's...fair."
+          },
+          {
+            "caption": "Witch",
+            "text": "I wouldn't be able to work without my little partner here."
+          },
+          {
+            "caption": "Witch",
+            "text": "Sheesh it's like you've never seen a witch work before!"
+          },
+          {
+            "caption": "Witch",
+            "text": "All you city folks think it's 'Hocus pocus this!' and 'Alacazam that!' Well it isn't!"
+          },
+          {
+            "caption": "Witch",
+            "text": "Witching is hard work, it's not just pointing your finger and chanting a little rhyme."
+          },
+          {
+            "caption": "Accountant",
+            "text": "Ma'am, I understand, you familiar is an integral part of your business. I'll be sure to mark down any expenses accrued."
+          },
+          {
+            "caption": "Witch",
+            "text": "You better!"
+          }
+        ],
+        "choice": "Invoice from Pets 'R' Us"
+      },
+      {
+        "result": [
+          {
+            "caption": "",
+            "text": "Among the receipts there is a dirty, crumpled paper."
+          },
+          {
+            "caption": "Accountant",
+            "text": "Uuuh, did a piece of garbage accidentally get mixed in?"
+          },
+          {
+            "caption": "Witch",
+            "text": "What? NO, that's an invoice! Didn't you just ask about invoices just now?"
+          },
+          {
+            "caption": "Accountant",
+            "text": "I did, but--"
+          },
+          {
+            "caption": "Witch",
+            "text": "Well that's an INVOICE, get on it kiddo."
+          },
+          {
+            "caption": "",
+            "text": "I carefully unwrap the note. Sure enough there is something scribbled on the inside. There's also a sticky residue as well."
+          },
+          {
+            "caption": "Accountant",
+            "text": "Is this written on...a candy wrapper?"
+          },
+          {
+            "caption": "Witch",
+            "text": "Yeah, the kid wasn't really used to writing invoices, this was the best I could get out of him."
+          },
+          {
+            "caption": "Witch",
+            "text": "Kid?"
+          },
+          {
+            "caption": "Witch",
+            "text": "Yeah, I pay some kids to advertise my services for me."
+          },
+          {
+            "caption": "Accountant",
+            "text": "Like, young kids? How old are we talking here? You trust kids with your marketing for your business?"
+          },
+          {
+            "caption": "Witch",
+            "text": "Kids are some of the best advertising a witch can buy."
+          },
+          {
+            "caption": "Witch",
+            "text": "Pay an adult and they'll stand on the street corners and bark some boring lines about my service."
+          },
+          {
+            "caption": "Witch",
+            "text": "Kids though? Kids got some real creativity, and they love a good rumor. Any advertising from a kid is guaranteed to be enticing and feel organic."
+          },
+          {
+            "caption": "Witch",
+            "text": "They'll start telling wild stories about the lady who lives at the end of the street."
+          },
+          {
+            "caption": "Witch",
+            "text": "They start telling tall tales about how I cook stews out of children that misbehave and scalp the lovers that have crossed me."
+          },
+          {
+            "caption": "Witch",
+            "text": "Real 'Boogeyman' kind of stuff! In fact the Boogyman uses the same kids I do!"
+          },
+          [
+            {
+              "result": [],
+              "choice": "And this works?"
+            },
+            {
+              "result": [],
+              "choice": "You want them to say bad things about you?"
+            }
+          ],
+          {
+            "caption": "Witch",
+            "text": "Yeah! Evil and conniving is my brand! 90% of my witching business is hexing and cursing on the behalf of spiteful, petty people."
+          },
+          {
+            "caption": "Witch",
+            "text": "Let this kids spin some tall tales about me and then once the adults start pickin' fights with each other they'll already know who to go to get their revenge."
+          },
+          {
+            "caption": "Accountant",
+            "text": "Hmm, I hadn't considered word of mouth advertising for you kind of work, but that does make sense."
+          },
+          {
+            "caption": "Accountant",
+            "text": "Okay, $128.90 to...Little Timmy Turner's Rumor Mill and Candy Emporium."
+          }
+        ],
+        "choice": "Hastily Scrawled Note"
+      },
+      {
+        "result": [
+          {
+            "action": "jump",
+            "label": "witch_chat"
+          }
+        ],
+        "choice": "Okay, I'm done with invoices for now."
+      }
+    ],
+    {
+      "action": "jump",
+      "label": "witch_expense_chat"
+    }
+  ],
+  "innkeeper_pass": [
+    {
+      "caption": "",
+      "text": "You didn't fail the innkeeper."
+    },
+    {
+      "action": "return"
+    }
+  ],
+  "innkeeper_chat": [
+    [
+      {
+        "result": [
+          {
+            "caption": "Accountant",
+            "text": "Could you please verify your basic information."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Aww, common now buddy, you know me!"
+          },
+          {
+            "caption": "Accountant",
+            "text": "I do..."
+          },
+          {
+            "caption": "",
+            "text": "Unfortunately."
+          },
+          {
+            "caption": "Accountant",
+            "text": "...but I need to confirm that information in case anything has changed since last year."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Bah, fine. I'm Bartlebee Danick, and my address is 56 Slopie Wetts St. That's in the city of Wealdstone Aysgarth in the Kingdom of Trolberg."
+          },
+          {
+            "caption": "Accountant",
+            "text": "And the courier code?"
+          },
+          {
+            "caption": "Barkeep",
+            "text": "20-54093-51. And now we're properly acquainted, how about a drink, eh?"
+          },
+          {
+            "caption": "Accountant",
+            "text": "Thanks but no thanks, but I don't drink on the job."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "You should try it sometime, it makes the job easier! Or at least it makes my job easier!"
+          }
+        ],
+        "choice": "Basic Information"
+      },
+      {
+        "result": [
+          {
+            "caption": "Accountant",
+            "text": "Okay, how much income have you made this past year?"
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Hey now, that's a bit of a personal question, isn't it?"
+          },
+          {
+            "caption": "Accountant",
+            "text": "Uh, sir, I'm your accountant."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Eh, I'm just teasing ya."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "$24,326.87."
+          }
+        ],
+        "choice": "Income"
+      },
+      {
+        "result": [
+          {
+            "caption": "Accountant",
+            "text": "Did you factor tips into your income?"
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Oh yeah, I sure did! You don't have to worry about that."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "I track my money tips daily and the owner tallies it all up over the year. It's all on my W2."
+          },
+          {
+            "caption": "",
+            "text": "Phew, for once he's making it easy."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "But let me tell ya, you don't always get money at the bar. Adventures sometimes leave you the strangest things."
+          },
+          {
+            "caption": "Accountant",
+            "text": "Really?"
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Yeah! Why let me tell you, I had a lad come in after slaying his first big bad, some guy...Straid? Strahb? I dunno, some old kook from Ravencroft."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Anyhow this kid gets smashed buying round after round for the whole bar, and by the end of the night he left me a piece of his loot!"
+          },
+          {
+            "caption": "Barkeep",
+            "text": "This shiny bell thing. It was really ornate, quite a show piece."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "If it didn't weigh as much as keg I would have kept it on the counter for patrons to ring when I'm in the back!"
+          },
+          {
+            "caption": "Accountant",
+            "text": "Uhm. I'm pretty sure that counts towards your tips..."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Wah? No! Wow do you even tax a bell? A PRICELESS bell at that?"
+          },
+          {
+            "caption": "Accountant",
+            "text": "No non-cash tips definitely still count as income."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "But...it's PRICELESS. Besides, I didn't even keep it."
+          },
+          {
+            "caption": "Accountant",
+            "text": "What happened to it?"
+          },
+          {
+            "caption": "Barkeep",
+            "text": "It wasn't really practical, which is a shame because it was gorgeous...I ended up pawning it for $500."
+          },
+          {
+            "caption": "",
+            "text": "Guess it wasn't priceless after all."
+          },
+          {
+            "caption": "",
+            "text": "I should make sure that's factored into his income."
+          }
+        ],
+        "choice": "Tips"
+      },
+      {
+        "result": [
+          {
+            "action": "jump",
+            "label": "innkeeper_deductions"
+          }
+        ],
+        "choice": "Deductions"
+      },
+      {
+        "result": [
+          {
+            "caption": "Accountant",
+            "text": "I assume no business expenses, as usual?"
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Well, about that, I was talking to another inn worker and they told me I was missing out on a lot of savings because I wasn't counting my business expenses!"
+          },
+          {
+            "caption": "Barkeep",
+            "text": "*grumble* You know I pay you good gold every year to do my taxes, you really ought to have known this kinda stuff *grumble*"
+          },
+          {
+            "caption": "",
+            "text": "I politely pretend to not hear his grumblings and pull out the appropriate business expense form from behind my desk."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Anyhow, this feller was telling me about all sorts of things he claims! I figured I can claim my bartender school, and his Gorgon insurance, and ale..."
+          },
+          {
+            "caption": "Accountant",
+            "text": "Okay, okay, hold up one moment, we need to go one by one..."
+          },
+          {
+            "action": "jump",
+            "label": "innkeeper_expense_chat"
+          }
+        ],
+        "choice": "Business Expenses"
+      }
+    ],
+    {
+      "action": "jump",
+      "label": "innkeeper_chat"
+    }
+  ],
+  "witch_failed": [
+    {
+      "caption": "",
+      "text": "You failed the witch."
+    },
+    {
+      "action": "return"
+    }
+  ],
+  "start": [
+    {
+      "caption": "",
+      "text": "Just another day at the Wealdstone Aysgarth Adventurers' Accounting office..."
+    },
+    {
+      "caption": "",
+      "text": "I pray that today will bring sweet water, light laughter, and REASONABLE clients."
+    },
+    {
+      "caption": "",
+      "text": "My goodness, if I could tell you about some of the ridiculous clients I've had this week..."
+    },
+    {
+      "caption": "",
+      "text": "But I can't dally, I have lots of work to do today."
+    },
+    {
+      "caption": "",
+      "text": "Oh, speaking of which, here's my first client!"
+    },
+    {
+      "action": "jump",
+      "label": "demo_start"
+    }
+  ],
+  "witch_start": [
+    {
+      "caption": "Witch",
+      "text": "Hey! You! You're the accountant around here, right?"
+    },
+    {
+      "caption": "",
+      "text": "An ornery woman dressed in black stands before me. I don't recognize her, she must be a new client."
+    },
+    {
+      "caption": "Bird Thing?",
+      "text": "SQWAAAK!"
+    },
+    {
+      "caption": "",
+      "text": "Oh! She has a little friend perched on her shoulder. A crow? A raven? I'm not quite sure."
+    },
+    {
+      "caption": "Witch",
+      "text": "That oaf down at the inn said you do taxes. Well, do ya? I need them done and I need them done now!"
+    },
+    {
+      "caption": "Accountant",
+      "text": "Well, hello to you too! Yes, I am the head accountant, and I can certainly help you with your taxes."
+    },
+    {
+      "caption": "Witch",
+      "text": "Yeah, and you better do them right!"
+    },
+    {
+      "caption": "Bird Thing?",
+      "text": "SQWAAAK!"
+    },
+    {
+      "caption": "Witch",
+      "text": "*Grumble* Yeah...the IRS isn't a witch you want to cross...*grumble*"
+    },
+    {
+      "caption": "Accountant",
+      "text": "I assure you I'm very diligent in my work."
+    },
+    {
+      "caption": "Witch",
+      "text": "Good. Then get to it!"
+    },
+    {
+      "caption": "Bird Thing?",
+      "text": "SQWAAAK!"
+    },
+    {
+      "action": "jump",
+      "label": "witch_chat"
+    }
+  ],
+  "innkeeper_end": [
+    {
+      "caption": "Accountant",
+      "text": "Okay, I think I have all the information I need. We're all done here."
+    },
+    {
+      "caption": "Barkeep",
+      "text": "Good! I was starting to think you forgot how to do taxes since last year! I was worried this would take all morning."
+    },
+    {
+      "caption": "Accountant",
+      "text": "Nope, you're free to go and get back to the inn."
+    },
+    {
+      "caption": "Barkeep",
+      "text": "Ahh, I guess I should. The bar won't open itself!"
+    },
+    {
+      "caption": "",
+      "text": "No...and I'm sure the ale won't drink itself either."
+    },
+    {
+      "caption": "Barkeep",
+      "text": "Anyhow, come by sometime and let me buy you a drink. I can expense that right? It's for my accountant."
+    },
+    {
+      "caption": "Accountant",
+      "text": "No, we just went over that, you cannot expense ale for your job."
+    },
+    {
+      "caption": "Barkeep",
+      "text": "Bah, you're no fun."
+    },
+    {
+      "action": "jump",
+      "label": "demo_end"
+    }
+  ],
+  "innkeeper_failed": [
+    {
+      "caption": "",
+      "text": "You failed the innkeeper."
+    },
+    {
+      "action": "return"
+    }
+  ],
+  "demo_start": [
+    {
+      "caption": "Barkeep",
+      "text": "Good day, sir!"
+    },
+    {
+      "caption": "Barkeep",
+      "text": "I bring tales of all my expenses and earnings! For once I'm prepared for the tax season!"
+    },
+    {
+      "caption": "Accountant",
+      "text": "Great, let us get started then!"
+    },
+    {
+      "caption": "",
+      "text": "This ought to be an easy one, I've known the local barkeep for years now, I could file his taxes in my sleep."
+    },
+    {
+      "caption": "",
+      "text": "So long as he doesn't spring anything out of the ordinary on me today."
+    },
+    {
+      "caption": "Accountant",
+      "text": "So, still working at the Dusty Dragon Drafthouse, right?"
+    },
+    {
+      "caption": "Barkeep",
+      "text": "Aye! You were just in last night! You think I managed to get fired since you last saw me?"
+    },
+    {
+      "caption": "",
+      "text": "I wouldn't be that surprised. In addition to being the village barkeep, he's also the village drunk."
+    },
+    {
+      "caption": "Accountant",
+      "text": "*Ahem* Of course not."
+    },
+    {
+      "caption": "",
+      "text": "I pull out a standard tax form. Hopefully this will be all I need for this client."
+    },
+    {
+      "caption": "Accountant",
+      "text": "Now let's get started, shall we?"
+    },
+    {
+      "action": "jump",
+      "label": "innkeeper_chat"
+    }
+  ],
+  "demo_end": [
+    {
+      "caption": "",
+      "text": "After he leaves I take a moment to relish in the silence."
+    },
+    {
+      "caption": "",
+      "text": "I don't have long before the next client arrives though, so finish with his forms and file them away into the appropriate folders."
+    },
+    {
+      "caption": "",
+      "text": "<This is the end of our demo. Thank you for playing! Check back soon for more content.>"
+    },
+    {
+      "action": "jump",
+      "label": "end"
+    },
+    {
+      "caption": "",
+      "text": "Just as I'm finishing up, my second client for the day comes lumbering in."
+    },
+    {
+      "action": "jump",
+      "label": "witch_start"
+    }
+  ],
+  "innkeeper_expense_chat": [
+    [
+      {
+        "result": [
+          {
+            "caption": "Accountant",
+            "text": "Bartender school...gorgon insurance...ale? You know it's not really sounding like it's worthwhile to expense these things."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Whaddyah mean? This feller who told me about expensing save tons of money by writing everything off."
+          },
+          {
+            "caption": "Accountant",
+            "text": "I'm not sure who 'this feller' is, but as your accountant I can assure you it will certainly be cheaper for you to not expense any of these things."
+          },
+          {
+            "caption": "Accountant",
+            "text": "You're salaried, so if you choose to expense anything you'll have to forgo the standard deduction."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Wah? You pulling my chain here?"
+          },
+          {
+            "caption": "Accountant",
+            "text": "No, look buddy, I think I know how to do my job pretty well so I suggest you listen to me."
+          },
+          {
+            "caption": "Accountant",
+            "text": "Unless you're going to expense more than the standard deduction, which is $24,200 for you since your married, it's NOT worth it to expense anything."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Bah, I pay you to do the math for me. Just do whatever is cheapest!"
+          },
+          {
+            "caption": "Accountant",
+            "text": "Very well."
+          }
+        ],
+        "choice": "Are you sure this is a good idea?"
+      },
+      {
+        "result": [
+          {
+            "caption": "Accountant",
+            "text": "Okay, bartender school...that makes sense, job training is definitely a legitimate expense. How much does that cost you a year?"
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Oh, it's 50 gold pieces a class, and I take about 4 a year. Gotta keep up with all the new bartending trends."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Did you know they're making drinks with beholder eyes now? Youngins' these days are coming up with all sorts of new fangled trends."
+          },
+          [
+            {
+              "result": [
+                {
+                  "caption": "Barkeep",
+                  "text": "I just added a drink like that to the menu!"
+                },
+                {
+                  "caption": "Barkeep",
+                  "text": "Come down and try it sometime!"
+                },
+                {
+                  "caption": "",
+                  "text": "How about...no..."
+                }
+              ],
+              "choice": "Huh, I did not know that."
+            },
+            {
+              "result": [
+                {
+                  "caption": "Barkeep",
+                  "text": "Aww, common, no need to get all judgmental."
+                },
+                {
+                  "caption": "",
+                  "text": "That's a hard ask..."
+                }
+              ],
+              "choice": "That sounds...interesting..."
+            }
+          ]
+        ],
+        "choice": "Bartender School"
+      },
+      {
+        "result": [
+          {
+            "caption": "Accountant",
+            "text": "Anyhow, what about Gorgon insurance? You're not really an adventurer, so I'm not sure you need protection from monsters."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "MONSTERS? Well, I'll be, I thought you were more open minded than that."
+          },
+          {
+            "caption": "Accountant",
+            "text": "I, uh, well..."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Those MONSTERS, as you so boldly put it, are actually GREAT customers of mine. We have a weekly all-Gorgon knitting group that comes in on Sundays."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "You be amazed what they can make! All them snake hairs are like extra hands for holding knitting needles, and when you have 20 knittin' needles going all at once you can knit 20 times as fast!"
+          },
+          [
+            {
+              "result": [
+                {
+                  "caption": "Barkeep",
+                  "text": "EH you ain't know nothing about Gorgons. NOTHIN'."
+                },
+                {
+                  "caption": "",
+                  "text": "I was actually referring to the knitting part...as an accomplished fiber artist I'm confident that's not how knitting works..."
+                },
+                {
+                  "caption": "",
+                  "text": "But as an accountant I know we're getting way off task. I need to reign this conversation back in."
+                },
+                {
+                  "caption": "Accountant",
+                  "text": "It's nice that you welcome diverse clientele, but you customers aren't supposed to be attacking you. Why do you need insurance against them?"
+                },
+                {
+                  "caption": "Barkeep",
+                  "text": "Of course they ain't attacking me! Especially at my place of employment! It ain't like they're not civilized."
+                }
+              ],
+              "choice": "I'm not sure that's how it works at all..."
+            },
+            {
+              "result": [
+                {
+                  "caption": "Barkeep",
+                  "text": "Well they ARE great, in fact!"
+                }
+              ],
+              "choice": "Okay if they're sooo great why do you need insurance?"
+            }
+          ],
+          {
+            "caption": "Barkeep",
+            "text": "They're all lovely snake ladies that just want a quiet warm corner to knit and gossip in, and they always buy a few rounds and tip well."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "They don't want no trouble, they keep themselves blindfolded so they don't bother nobody!"
+          },
+          {
+            "caption": "Accountant",
+            "text": "That's mighty considerate of them.."
+          },
+          {
+            "caption": "",
+            "text": "And it's very impressive that they can knit like that..."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Of course accidents do happen sometimes...I shouldn't have put so much pepper in Stheno's stew, but I knew she liked this spicy, or rather 'SsssSSSsssspicy', as she puts it..."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "She sneezed her blindfold clean off and caught the gaze of Kevin, the little orphan boy who sweeps our floors."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Poor Kevin..."
+          },
+          {
+            "caption": "",
+            "text": "The barkeep stares solemnly into space for a few moments."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Anyhow, I've been paying for Gorgon insurance ever since. It's a risk that comes with the job."
+          },
+          {
+            "caption": "Accountant",
+            "text": "Right, that makes sense...I guess...how much is that?"
+          },
+          {
+            "caption": "Barkeep",
+            "text": "185 gold pieces a year."
+          },
+          {
+            "caption": "",
+            "text": "I make a mental note to look into getting Gorgon insurance for the firm. You never know when we might start getting some Gorgon clients."
+          },
+          {
+            "caption": "",
+            "text": "Even Medusa has to pay her taxes, right?"
+          }
+        ],
+        "choice": "Gorgon Insurance"
+      },
+      {
+        "result": [
+          {
+            "caption": "Accountant",
+            "text": "The last thing you mentioned is...ale? Was it ale you said?"
+          },
+          {
+            "caption": "",
+            "text": "He perks up noticeably. Ale must be his favorite subject."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Yes siree! Oh boy am I ready for this one. I spend sooo much on ale, just look and see here!"
+          },
+          {
+            "caption": "",
+            "text": "He pushes a pile of receipts towards me."
+          },
+          [
+            {
+              "result": [],
+              "choice": "Read them all and start meticulously documenting them for your records."
+            },
+            {
+              "result": [],
+              "choice": "Skim the top few on the pile."
+            }
+          ],
+          {
+            "caption": "Accountant",
+            "text": "Wait a minute...are these...all for your OWN drinks?"
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Yeah, well, I'm not STOCKIN' the place ya know. I'm the barkeep, not the owner."
+          },
+          {
+            "caption": "Accountant",
+            "text": "Yes, right, so...why do you think your drinks count as a business expense?"
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Well, you know how it is at the inn! I gotta really put in the effort if I want to make those tips! I'm like a one man circus!"
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Gotta pour drinks, gotta count coins, gotta bark and yell 'Hey! Adventurer! Come wet your throat and rest your eyes!' Gotta be courteous gotta be charming!"
+          },
+          {
+            "caption": "Barkeep",
+            "text": "And sometimes, I gotta DRINK!"
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Patrons love it when I have a drink with them! Really gets them to open their wallets and tip!"
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Remember last night, we split a drink, and you left me a good tip!"
+          },
+          {
+            "caption": "",
+            "text": "Ah yes, how could I forget."
+          },
+          {
+            "caption": "",
+            "text": "All I wanted was a quiet drink to relax with after a long day's work, and instead I got a sloppy bar keep pouring ale all over my lap."
+          },
+          {
+            "caption": "",
+            "text": "Really that tip was more to make him go away than anything else."
+          },
+          {
+            "caption": "Accountant",
+            "text": "I'm...not sure this counts as a business expense."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Whhhy of course it does!"
+          },
+          {
+            "caption": "Accountant",
+            "text": "Actually let me correct myself: this definitely does not count as an expense."
+          },
+          {
+            "caption": "Barkeep",
+            "text": "Can't you make one little exception for your old friend?"
+          },
+          {
+            "caption": "Accountant",
+            "text": "No, I can't, because I don't make the rules. I just follow them. That's my job as an accountant."
+          }
+        ],
+        "choice": "Ale"
+      },
+      {
+        "result": [
+          {
+            "action": "jump",
+            "label": "innkeeper_chat"
+          }
+        ],
+        "choice": "Okay, let's talk about something else..."
+      }
+    ],
+    {
+      "action": "jump",
+      "label": "innkeeper_expense_chat"
+    }
+  ],
+  "day_end": [
+    {
+      "caption": "",
+      "text": "..."
+    },
+    {
+      "caption": "",
+      "text": "Whelp, it's time for my lunch break."
+    },
+    {
+      "caption": "",
+      "text": "Hopefully the afternoon's clients won't be as trying at the ones I had this morning."
+    },
+    {
+      "caption": "",
+      "text": "*A few months later.*"
+    },
+    {
+      "action": "jump",
+      "label": "end"
+    }
+  ],
+  "witch_chat": [
+    [
+      {
+        "result": [
+          {
+            "caption": "Accountant",
+            "text": "So, seeing as you're a first time client, I'll need all your basic information, including your full legal name and your address."
+          },
+          {
+            "caption": "Witch",
+            "text": "Beverdine Wartonbrex, at your service."
+          },
+          {
+            "caption": "Bird Thing?",
+            "text": "SQWAAAK!"
+          },
+          {
+            "caption": "Witch",
+            "text": "And this here is my buddy Keesh."
+          },
+          {
+            "caption": "Accountant",
+            "text": "Charmed."
+          },
+          {
+            "caption": "Witch",
+            "text": "We live in a little cottage out in the haunted bogs west of here, at 65 Barchs Wood Ave, in the village of Salem, in the Kingdom of Trolberg. Courier Code 20-54672-31."
+          },
+          {
+            "caption": "Accountant",
+            "text": "Great, now the IRS will know where you send your refund, if you get one."
+          },
+          {
+            "caption": "Witch",
+            "text": "Gah, don't tell the IRS where I LIVE. I told you that's one witch I don't want to cross!"
+          },
+          {
+            "caption": "Accountant",
+            "text": "A legal address is required to file your return. Also I assure you, if you play by their rules they'll never show up at your doorstep."
+          },
+          {
+            "caption": "Witch",
+            "text": "Ugh, fine."
+          }
+        ],
+        "choice": "Who are you again?"
+      },
+      {
+        "result": [
+          {
+            "action": "jump",
+            "label": "witch_income"
+          }
+        ],
+        "choice": "Income"
+      },
+      {
+        "result": [
+          {
+            "action": "jump",
+            "label": "witch_expense_chat"
+          }
+        ],
+        "choice": "Expenses"
+      }
+    ],
+    {
+      "action": "jump",
+      "label": "witch_chat"
+    }
+  ],
+  "witch_end": [
+    {
+      "caption": "Accountant",
+      "text": "Well, unless you have any more invoices for me, I think we're all done here."
+    },
+    {
+      "caption": "Bird Thing?",
+      "text": "SQWAAAK!"
+    },
+    {
+      "caption": "Witch",
+      "text": "Nope, that's all we have, and it's already Keesh's dinner time, so we'll be leaving."
+    },
+    {
+      "caption": "",
+      "text": "As she rises to standing I see her swirl her finger on the surface of my desk, piling up a little stack of dust."
+    },
+    {
+      "caption": "",
+      "text": "No...not dust...hair?! She's picking up strands of my shed hair?"
+    },
+    {
+      "caption": "Accountant",
+      "text": "Um, excuse me, what are you doing?"
+    },
+    {
+      "caption": "Witch",
+      "text": "Oh you know, just collecting a little insurance."
+    },
+    {
+      "caption": "Witch",
+      "text": "A witch always has a use for her enemy's hair!"
+    },
+    [
+      {
+        "result": [],
+        "choice": "I'd rather we not be enemies."
+      },
+      {
+        "result": [],
+        "choice": "I thought we were friends now."
+      },
+      {
+        "result": [],
+        "choice": "I think that actually belongs to me."
+      }
+    ],
+    {
+      "caption": "Witch",
+      "text": "HAH don't you worry, just make sure you do those taxes right and send them in on time."
+    },
+    {
+      "caption": "Witch",
+      "text": "If you make sure I don't cross the IRS then you don't cross me. Savvy?"
+    },
+    {
+      "caption": "Bird Thing?",
+      "text": "SQWAAAK!"
+    },
+    {
+      "caption": "Witch",
+      "text": "Now, now, Keesh, we'll be home soon enough and you can gorge yourself on all the Chimera sausage you can handle."
+    },
+    {
+      "caption": "Witch",
+      "text": "And if I get audited maybe I'll make you some accountant sausage too!"
+    },
+    {
+      "caption": "Bird Thing?",
+      "text": "SQWAAAK!"
+    },
+    {
+      "caption": "Witch",
+      "text": "Bye bye now!"
+    },
+    {
+      "caption": "",
+      "text": "She slams the door on her way out."
+    },
+    {
+      "action": "jump",
+      "label": "day_end"
+    }
+  ],
+  "innkeeper_deductions": [
+    {
+      "caption": "Accountant",
+      "text": "So I guess you'll qualify for all the standard deductions..."
+    },
+    {
+      "caption": "Accountant",
+      "text": "Your self, your husband Kenny...and your little Ike and Nancy, can't forget the deductions for dependents."
+    },
+    {
+      "caption": "Barkeep",
+      "text": "NO. Ike is DEAD!"
+    },
+    [
+      {
+        "result": [],
+        "choice": "Oh, oh my goodness, I'm so sorry..."
+      },
+      {
+        "result": [],
+        "choice": "I had no idea..."
+      }
+    ],
+    {
+      "caption": "Barkeep",
+      "text": "-DEAD TO ME THAT IS!"
+    },
+    {
+      "caption": "Accountant",
+      "text": "..."
+    },
+    {
+      "caption": "Barkeep",
+      "text": "He's old enough to be helping out at the in, but it's all like 'No, that's not for me, old man!' Says he wants to go be an adventurer instead."
+    },
+    {
+      "caption": "Barkeep",
+      "text": "Told him no son of mine was going to abandon the family business! Especially not to be some stinky adventurer out rolling in bogs and stepping in dragon poo!"
+    },
+    {
+      "caption": "Barkeep",
+      "text": "Told him if he really wanted to make it on his own he could start paying his own way!"
+    },
+    {
+      "caption": "Accountant",
+      "text": "Uhh...is this relevant to your taxes sir?"
+    },
+    {
+      "caption": "Barkeep",
+      "text": "Well, excuse me if I take a moment to vent my frustrations."
+    },
+    {
+      "caption": "Barkeep",
+      "text": "You know, if you wanted to earn your tip you ought to be willing to lend a listening ear every once and awhile."
+    },
+    {
+      "caption": "Barkeep",
+      "text": "Take it from me, ain't nobody know how to make a tip better than a barkeep!"
+    },
+    {
+      "caption": "Accountant",
+      "text": "Sir, I don't accept tips."
+    },
+    {
+      "caption": "Barkeep",
+      "text": "FINE, I 'll get to the point. He moved, so he ain't really a dependent anymore. In fact he just told me he's made enough to file his own taxes now, so his old man won't be claiming him as a dependent no more."
+    },
+    {
+      "caption": "Accountant",
+      "text": "Okay, so just you and your husband and little Nancy then."
+    },
+    {
+      "caption": "Barkeep",
+      "text": "Oh, actually Nancy passed, bless her soul. Went foraging for some mushrooms for dinner and accidentally handled a poisoned toad stool."
+    },
+    [
+      {
+        "result": [],
+        "choice": "Uhhh..."
+      },
+      {
+        "result": [
+          {
+            "caption": "",
+            "text": "I can't tell if he's being serious this time."
+          }
+        ],
+        "choice": "Wait, what?"
+      }
+    ],
+    {
+      "caption": "Barkeep",
+      "text": "Yeah, I'm surprised you haven't heard yet. Actually happened over a year ago, so it's not even relevant as far as my taxes."
+    },
+    {
+      "caption": "Accountant",
+      "text": "Oookay, I'll update my notes accordingly..."
+    },
+    {
+      "caption": "Accountant",
+      "text": "Just the standard deduction for couples and...no dependents..."
+    },
+    {
+      "action": "jump",
+      "label": "innkeeper_chat"
+    }
+  ],
+  "witch_pass": [
+    {
+      "caption": "",
+      "text": "You didn't fail the witch."
+    },
+    {
+      "action": "return"
+    }
+  ]
+}
